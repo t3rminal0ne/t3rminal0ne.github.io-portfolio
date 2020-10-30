@@ -5,6 +5,8 @@ html, body
     background-color:white;
     
     font-family: "Work Sans", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    text-align:center;
 }
 
 #banner-div {
@@ -81,7 +83,7 @@ html, body
     text-align:center;
 }
 
-#decorative-line {
+.decorative-line {
     position:relative;
     width:20%;
     left:40%;
@@ -95,12 +97,64 @@ html, body
 .design-div {
     position:relative;
     margin-top:10px;
-    margin-bottom:10px;
+    margin-bottom:50px;
 
-    left:10%;
-    width:80%;
-    height:600px;
+    min-width:550px;
 
-    background-color:blue;
+    background-color:white;
     box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+    text-align:left;
+}
+
+.design-div-main-image {
+    position:relative;
+    width:55%;
+    left:15px;
+    top:15px;
+}
+
+.design-div-image-2 {
+    position:relative;
+    margin-top:15px;
+    left:15px;
+    width:27.32%;
+}
+
+.design-div-image-3 {
+    position:relative;
+    margin-top:15px;
+    left:15px;
+    width:27.32%;
+}
+
+.design-div-image-4 {
+    position:relative;
+    margin-bottom:15px;
+    left:15px;
+    width:27.32%;
+}
+
+.design-div-image-5 {
+    position:relative;
+    margin-bottom:15px;
+    left:15px;
+    width:27.32%;
+}
+
+.design-div-text {
+    position:absolute;
+
+    top:15px;
+    right:15px;
+    width:41%;
+    height:700px;
+
+    margin-left:15px;
+
+    text-align:center;
+}
+
+.design-div-text h1 {
+    font-size:5vw;
 }
