@@ -97,7 +97,7 @@ html, body
 .design-div {
     position:relative;
     margin-top:10px;
-    margin-bottom:50px;
+    margin-bottom:2vw;
 
     min-width:550px;
 
@@ -106,6 +106,7 @@ html, body
 
     text-align:left;
 }
+
 
 .design-div-main-image {
     position:relative;
